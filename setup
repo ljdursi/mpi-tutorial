@@ -1,0 +1,4 @@
+#!/bin/bash
+module purge
+module load gcc openmpi/1.4.4-gcc-v4.6.1 pgplot/5.2.2-gcc extras nano
+export OMPI_MCA_btl="self,sm,tcp"
